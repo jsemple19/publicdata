@@ -27,7 +27,7 @@ seqlevels(pub_ce11)<-seqlevels(Celegans)
 seqlengths(pub_ce11)<-seqlengths(Celegans)
 
 
-#to export the files
+#to export the filess
 export(pub_ce11, paste0(publicfiles$FileName[i],"_ce11.gtf"),  "gtf")
 export(pub_ce11, paste0(publicfiles$FileName[i], "_ce11.bw"), "bw")
 }
